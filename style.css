@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+
+*{
+    background-image: url(winter-landscape.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+html,body{
+    width: 70%;
+    margin: 0 auto;
+    font-family:'EB Garamond', serif;
+}
+
+.container{
+    width: 360px;
+}
+
+#inputField{
+    width: 300px;
+    height: 46px;
+    border: 1px solid black;
+    outline: none;
+    font-size: 25px;
+    vertical-align: middle;
+}
+
+#inputField:hover{
+    background-color: rgba(199, 199, 199, 0.444);
+    cursor: pointer;
+}
+
+#addToDo{
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    vertical-align: middle;
+    font-size: 30px;
+}
+
+#addToDo:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.paragraph-styling{
+    margin: 10px;
+    cursor: pointer;
+    font-size: 30px;
+    color: grey;
+
+}
+
